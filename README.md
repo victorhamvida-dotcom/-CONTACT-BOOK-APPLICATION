@@ -2,26 +2,24 @@
 
 
 ### Table of Contents
-1.	[Project Overview]()
-2.	[Business Objectives]()
-3.	[Understanding the Domain]()
-4.	[Data Collection (Contacts dataset)]()
-5.	[Data Cleaning]()
-6.	[Feature Engineering]()
-7.	[Exploratory Data Analysis (EDA)]()
-8.	[Visualization]()
-9.	[Interpretation]()
-10.	[Code Implementation]()
-11.	[How to Run the Project]()
-12.	[Future Improvements]()
+1.	[Project Overview](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#1-project-overview)
+2.	[Business Objectives](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#2-business-objectives)
+3.	[Understanding the Domain](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#3-understanding-the-domain)
+4.	[Data Collection (Contacts dataset)](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#4-data-collection)
+5.	[Data Cleaning](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#5-data-cleaning)
+6.	[Feature Engineering](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#5-data-cleaning)
+7.	[Exploratory Data Analysis (EDA)](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#7-eda)
+8.	[Visualization](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#8-visualization)
+9.	[Interpretation](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#9-interpretation)
+10.	[Code Implementation](https://github.com/victorhamvida-dotcom/-CONTACT-BOOK-APPLICATION#-full-python-code-with-comments-for-vs-code)
     
 ## 1. Project Overview
 This project is a Contact Book Application built in Python. It simulates a dataset of contacts and allows CRUD operations (Create, Read, Update, Delete). It demonstrates fundamental data engineering steps: collection, cleaning, feature engineering, and analysis.
 
 ## 2. Business Objectives
-•	Manage personal/professional contacts efficiently.
-•	Provide a structured dataset for analysis.
-•	Demonstrate Python programming and data handling skills.
+-	Manage personal/professional contacts efficiently.
+-	Provide a structured dataset for analysis.
+-	Demonstrate Python programming and data handling skills.
 
 ## 3. Understanding the Domain
 Contacts are a form of structured data: Name, Phone, Email, Address. Managing them requires consistency, validation, and easy retrieval.
@@ -30,25 +28,25 @@ Contacts are a form of structured data: Name, Phone, Email, Address. Managing th
 Instead of an external dataset, we collect data interactively via user input. Each contact is stored in a Python dictionary.
 
 ## 5. Data Cleaning
-•	Prevent duplicate entries.
-•	Validate missing fields.
-•	Allow editing with defaults if fields are left blank.
+-	Prevent duplicate entries.
+-	Validate missing fields.
+-	Allow editing with defaults if fields are left blank.
 
 ## 6. Feature Engineering
-•	Add derived features (e.g., count of contacts, grouping by domain of email).
-•	Potential to extend with tags, categories, or relationship type.
+-	Add derived features (e.g., count of contacts, grouping by domain of email).
+-	Potential to extend with tags, categories, or relationship type.
 
 ## 7. EDA
-•	Summarize number of contacts.
-•	Explore distribution of email domains (e.g., Gmail vs Yahoo).
-•	Identify missing or incomplete records.
+-	Summarize number of contacts.
+-	Explore distribution of email domains (e.g., Gmail vs Yahoo).
+-	Identify missing or incomplete records.
 
 ## 8. Visualization
-•	Could be extended with matplotlib/seaborn to visualize email domain distribution.
+-	Could be extended with matplotlib/seaborn to visualize email domain distribution.
 
 ## 9. Interpretation
-•	A clean, structured contact dataset improves communication efficiency.
-•	Demonstrates how CRUD operations mirror real-world data pipelines.
+-	A clean, structured contact dataset improves communication efficiency.
+-	Demonstrates how CRUD operations mirror real-world data pipelines.
 
 # 💻 Full Python Code (with comments for VS Code)
 ## python
